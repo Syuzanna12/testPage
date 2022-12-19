@@ -290,17 +290,17 @@ body {
     margin-top: 12px;
 }
 
-.contact-icon {
-    margin-top: 32px;
-    margin-top: 32px;
+.contact-icon1{
+    display: flex;
+    margin: 18px 0 18px;
 }
-
-.contact-icon2 {
-    margin-top: 16px;
+.contact-icon-text{
+    width: 464px;
+    margin-left: 23px;
 }
-
-.contact-icon3 {
-    margin-top: 16px;
+.contact-icon-img{
+    width: 15px;
+    height: 18.33px;
 }
 /* .contact-icon3resp {
     display: none;
