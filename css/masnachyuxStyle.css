@@ -23,6 +23,15 @@
     z-index: 999;
 }
 
+.header a img {
+    width: 112px;
+    min-width: 112px;
+    background-repeat: no-repeat;
+    margin-top: 14px;
+    margin-left: 60px;
+    height: 60px;
+}
+
 .logo {
 /*     background-image: url(./img/Logo.png); */
      height: 60px;
