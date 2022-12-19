@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Contactstyle.css">
-    <link rel="stylesheet" href="css/Contactmedia768.css">
-    <link rel="stylesheet" href="css/Contactmedia375.css">
+    <link rel="stylesheet" href="css/Contacstyle.css">
+    <link rel="stylesheet" href="css/Contacmedia768.css">
+    <link rel="stylesheet" href="css/Contacmedia375.css">
     <title>Contact</title>
 </head>
 <body>
@@ -263,5 +263,34 @@
         </div>
       </div>
     <script src="js/Contact.js"></script>
+     <script src="js/Contac.js"></script>
+    <script src="Contac.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("p5WQ4wQRAaf5fVVEP");
+        })();
+     </script>
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+        .addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        btn.value = 'Ուղարկել է․․․';
+
+        const serviceID = 'service_q0399mr';
+        const templateID = 'template_69dmo8c';
+
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+            btn.value = 'Ուղարկել';
+            }, (err) => {
+            btn.value = 'Ուղարկել';
+            alert(JSON.stringify(err));
+            });
+        });
+    </script>
 </body>
 </html>
