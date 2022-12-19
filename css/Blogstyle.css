@@ -2,6 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
 }
 
 :root {
@@ -167,7 +172,7 @@ body {
 .second-menu-navigation>a {
     text-decoration: none;
     color: white;
-    font-size:112.5%;
+    font-size:75%;
     line-height: 24px;
     display: flex;
 }
