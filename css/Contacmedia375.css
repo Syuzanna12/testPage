@@ -2,6 +2,7 @@
 
     .line,
     .phone,
+    .order-call,
     .resp-lang,
     .second-menu,
     .headphones {
@@ -87,71 +88,80 @@
         width: 51px;
     }
 
-    .contact-container{
-        width: 363px;
-        display: flex;
-        flex-direction: column;
+  
+    .blog-title {
+        margin-top: 2px;
     }
-    .contact-icon3{
-        width: 331px;
+    .item-title{
+        font-size: 150%;
     }
-    .inputResp,
-    .textareaResp{
+    .texts{
+        margin-top: 1%;
         width: 343px;
-        display: block;
+        height: 55px;
+        font-size: 112.5%;
     }
-    .map-karta-contact{
+    .texts  span{
         display: none;
     }
-    .contact-leftResp{
-        display: block;
-    }
-    .contact-left {
+    .item-img{
         display: flex;
-        margin-top: 48px;
+        width: 304px;
+        margin-top: 42px;
+    
     }
-    .formResp{
-        display: block;
+    .item1{
+        width: 240px;
     }
-    .input-group-button {
-        display: flex;
-        flex-direction: column;
+    .title-text-first{
+        width: 704px;
+        height: 330px;
+    
     }
-    .input-group-button button {
-        width: 94px;
-        height: 40px;
+    .title-text2{
+        width: 343px;
+        height: 632px;
+        margin-top: 1px;
     }
-    .text-group {
-        margin-top: 12px;
-        margin-left: 1px;
-    }
-    .map-karta-contactResp375{
-        display: block;
-    }
-    .map-logo-text p {
-        font-size: 125%;
-    }
-    .main-container {
-        display: flex;
-        flex-direction: column;
-        margin-left: 15%;
+    .title-tex,.title-text{
+        width: 343px;
 
     }
-    .info-contact {
-        width: 10%;
+
+    .blog-news-footer{
+        display: flex;
+        flex-direction: column;
     }
-    .gray-contact{
-        width: 250px;
+    .end-news-title{
+        font-size: 150%;
     }
-    .Address2{
-        width: 200px;
+    .item-img-blog{
+      margin-left: -78px;
+      display: flex;
+      flex-direction: column;
     }
-    .line-hr{
+    .item-blog-img{
         width: 343px;
-        border: 1px solid #D8D7D9;
     }
-    .main-resp{
-        margin-left: -40px;
+    .center-text{
+        margin-left: -200px;
+    }
+    .center-text-border{
+        height: 168px;
+    }
+    .center-text-main{
+        width: 321px;
+        height: 168px;
+        font-size: 100%;
+
+    }
+    .title-content-img{
+        width: 343px;
+    }
+    .after-hr{
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
     }
  
     .footer{
